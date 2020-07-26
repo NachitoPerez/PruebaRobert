@@ -1,0 +1,22 @@
+"tasks": [
+        {
+            "label": "JC",
+            "command": "java",
+            "windows":{
+                "command": "C:\\Program Files\\Java\\jdk-11.0.8\\bin\\javac.exe"
+            },
+            "args": [
+                "${file}"
+            ]
+        },
+        {
+            "label": "JR",
+            "command": "java",
+            "windows":{
+                "command": "C:\\Program Files\\Java\\jdk-11.0.8\\bin\\java.exe"
+            },
+            "args": [
+                "${fileBasenameNoExtension}"
+            ]
+        }
+    ]
